@@ -9,10 +9,10 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #333;
-    background-color:#faf9f6;
+    background-color: #dde2e7;
     padding: 5% 20%;
     line-height: 1.5;
-    
+
 }
 
 header {
@@ -20,7 +20,8 @@ header {
     margin-bottom: 35px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #2c3e50;
     font-weight: 700;
 }
@@ -48,11 +49,11 @@ p {
     /*border: 1px solid black;*/
 }
 
-.tarjeta-receta {
+.tarjeta-recetas {
     text-decoration: none;
     text-align: center;
     background-color: #fff;
-    
+
     width: 200px;
     margin: 10px auto;
     padding: 10px;
@@ -62,17 +63,17 @@ p {
     overflow: hidden;
 }
 
-.tarjeta-receta:hover {
-    transform: translateY(-5px);
+.tarjeta-recetas:hover {
+    transform: translateY(-15px);
     box-shadow: 5px 5px #333;
 }
 
-.tarjeta-receta h2 {
-    padding:10px;
+.tarjeta-recetas h2 {
+    padding: 10px;
     font-size: 1.3em;
 }
 
-img {
+.tarjeta-recetas img {
     height: 100px;
     width: auto;
     border-radius: 5px;
@@ -84,3 +85,72 @@ footer {
     color: #566869;
 }
 
+/*----------------------------------------*/
+
+/* Paginas de recetas */
+
+.home {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+
+.recetas-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recetas-header h1 {
+    margin-bottom: 10px 0px;
+}
+
+.descripcion {
+    font-size: 1.1em;
+    color: #7f8b8d;
+}
+
+/* Contenido de la receta*/
+
+.contenedor-receta img {
+    display: block;
+    width: auto;
+    max-height: 300px ;
+    border-radius: 25px;
+    margin: 30px auto ;
+}
+
+.contenedor-receta {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 5px 20px;
+}
+
+/* Ingredientes e instrucciones*/
+
+.info-receta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.instrucciones,
+.ingredientes {
+    flex: 1 1 350px;
+}
+
+.instrucciones ol,
+.ingredientes ul{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
