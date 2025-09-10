@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    background-color:#faf9f6;
+    padding: 5% 20%;
+    line-height: 1.5;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.titulo {
+    font-size: 2.5em;
+}
+
+.eslogan {
+    font-size: 1.1em;
+}
+
+p {
+    font-size: 0.8em;
+    color: #566869;
+}
+
+/* Caja de recetas      */
+
+.caja-recetas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+.tarjeta-receta {
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+
+    border: 1px solid grey;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.tarjeta-receta:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px #333;
+}
+
+.tarjeta-receta h2 {
+    padding:10px;
+    font-size: 1.3em;
+}
+
+img {
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #566869;
+}
+
